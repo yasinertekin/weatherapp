@@ -1,0 +1,68 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d emulator-5554 --devtools-server-address http://127.0.0.1:9101/ --target lib\main.dart
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://127.0.0.1:53837/qMgnbqtQjzY=/ws
+
+```
+```
+
+## flutter doctor
+
+```
+[!] Flutter (Channel stable, 3.13.0, on Microsoft Windows [Version 10.0.19045.3448], locale tr-TR)
+    • Flutter version 3.13.0 on channel stable at D:\src\flutter
+    ! Warning: `dart` on your path resolves to D:\tools\dart-sdk\bin\dart.exe, which is not inside your current Flutter SDK checkout at D:\src\flutter. Consider adding D:\src\flutter\bin to the front of your path.
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision efbf63d9c6 (6 weeks ago), 2023-08-15 21:05:06 -0500
+    • Engine revision 1ac611c64e
+    • Dart version 3.1.0
+    • DevTools version 2.25.0
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 34.0.0-rc2)
+    • Android SDK at D:\Users\Yasin\AppData\Local
+    • Platform android-34, build-tools 34.0.0-rc2
+    • ANDROID_HOME = D:\Users\Yasin\AppData\Local
+    • Java binary at: D:\Program Files\Android\Android Studio\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-10027231)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Derleme Araçları 2019 16.11.23)
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
+    • Visual Studio Derleme Araçları 2019 version 16.11.33214.272
+    • Windows 10 SDK version 10.0.19041.0
+
+[✓] Android Studio (version 2022.3)
+    • Android Studio at D:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-10027231)
+
+[✓] VS Code (version 1.82.2)
+    • VS Code at C:\Users\Yasin\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.72.0
+
+[✓] Connected device (4 available)
+    • Android SDK built for x86 (mobile) • emulator-5554 • android-x86    • Android 10 (API 29) (emulator)
+    • Windows (desktop)                  • windows       • windows-x64    • Microsoft Windows [Version 10.0.19045.3448]
+    • Chrome (web)                       • chrome        • web-javascript • Google Chrome 117.0.5938.92
+    • Edge (web)                         • edge          • web-javascript • Microsoft Edge 117.0.2045.36
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```
